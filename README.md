@@ -1,5 +1,5 @@
 # DEXTools Node
-[![Python application](https://github.com/alb2001/dextools-python/actions/workflows/python-app.yml/badge.svg)](https://github.com/alb2001/dextools-python/actions/workflows/python-app.yml)
+[![Node.js CI](https://github.com/alb2001/dextools-node/actions/workflows/node.js.yml/badge.svg)](https://github.com/alb2001/dextools-node/actions/workflows/node.js.yml)
 [![NPM Downloads](https://img.shields.io/npm/dm/dextools-node)](https://npm-stat.com/charts.html?package=dextools-node)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![NPM Version](https://img.shields.io/npm/v/dextools-node)](https://www.npmjs.com/package/dextools-node)
@@ -110,7 +110,7 @@ Available values: `"free"`, `"trial"`, `"standard"`, `"advanced"`, `"pro"`, and 
 
 
 ## Version 1 Queries
-Below are a set of queries supported by the [Dextools API v1](https://api.dextools.io/docs). All data is returned as a Python dictionary for easy data handling.
+Below are a set of queries supported by the [Dextools API v1](https://api.dextools.io/docs). All data is returned as a JavaScript object for easy data handling.
 
 ### Get pairs of a token
 To get the pairs of a token, pass a `chain id` and a `pair address`:
@@ -159,7 +159,7 @@ console.log(exchange_list);
 ```
 
 ## Version 2 Queries
-Below are a set of queries supported by the [Dextools API v2](https://developer.dextools.io/docs/start). All data is returned as a Python dictionary for easy data handling.
+Below are a set of queries supported by the [Dextools API v2](https://developer.dextools.io/docs/start). All data is returned as a JavaScript object for easy data handling.
 
 ### Blockchain
 #### Get blockchain info
