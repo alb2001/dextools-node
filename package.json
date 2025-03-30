@@ -1,0 +1,31 @@
+{
+  "name": "dextools-node",
+  "version": "1.0.0",
+  "description": "A simple JS/Node API wrapper for DEXTools",
+  "main": "./dextools_node/index.js",
+  "files": [
+    "dextools_node/*"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "dextools",
+    "api",
+    "wrapper",
+    "blockchain",
+    "trading",
+    "exchange",
+    "uniswap",
+    "defi",
+    "web3"
+  ],
+  "author": "alb2001 <alb2001@outlook.es> (alb2001@outlook.es)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
