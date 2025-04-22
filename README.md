@@ -1,3 +1,5 @@
+![Image](https://raw.githubusercontent.com/alb2001/dextools-node/main/assets/dextools-node.png)
+
 # DEXTools Node
 [![Node.js CI](https://github.com/alb2001/dextools-node/actions/workflows/node.js.yml/badge.svg)](https://github.com/alb2001/dextools-node/actions/workflows/node.js.yml)
 [![NPM Downloads](https://img.shields.io/npm/dm/dextools-node)](https://npm-stat.com/charts.html?package=dextools-node)
